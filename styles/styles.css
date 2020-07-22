@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1e1e1e;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    display: block;
+    background: #eee;
+    color: #111;
+    text-align: center;
+    padding: 1.5rem;
+    
+}
+
+.dice__trigger{
+    color: black;
+    background: lightgray;
+    border-radius: 4px;
+    outline: 0;
+    display: block;
+    margin: 2rem auto;
+    padding: 1em 1.2rem;
+    font-size: 1rem;
+    
+}
+
+.dice__trigger:hover{
+    opacity: 0.9;
+}
+
+.dice__image {
+    display: block;
+    margin: 4rem auto;
+}
+
+.change.dice__image {
+    transition:  all 0.5s ease-in-out;
+    transform: translateY(50px) rotate(90deg);
+}
+
+
